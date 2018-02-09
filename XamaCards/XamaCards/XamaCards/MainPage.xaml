@@ -4,8 +4,10 @@
              xmlns:local="clr-namespace:XamaCards"
              x:Class="XamaCards.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Grid>
+        <Frame Padding="16" CornerRadius="16">
+            <Image Source="card1.png"></Image>
+        </Frame>
+    </Grid>
 
 </ContentPage>
