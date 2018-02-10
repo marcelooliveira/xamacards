@@ -5,8 +5,13 @@
              x:Class="XamaCards.MainPage">
 
     <Grid>
-        <Frame Padding="16" CornerRadius="16">
-            <Image Source="card1.png"></Image>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Frame Grid.Column="1" Padding="16" Margin="16" CornerRadius="16">
+            <Image Source="card1.png"/>
         </Frame>
     </Grid>
 
